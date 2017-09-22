@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aug22.avinashchintareddy.ecommerce.intro.SecondActivity"
+    android:background="#fff">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="#719C0E">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:id="@+id/et_mnumber"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="#719C0E"
+            android:textColorHint="#fff"
+            android:hint="Phonenumber"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="#fff" />
+
+        <EditText
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:id="@+id/et_pswd"
+            android:textColorHint="#fff"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#719C0E"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:textColor="#fff"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="#719C0E"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_fpswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgotpasword?"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#719C0E"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Cutomer Registration"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#719C0E"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aug22.avinashchintareddy.ecommerce.fragments.CartF">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:id="@+id/linearLayout">
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="385dp"
+        android:paddingTop="20dp"
+        android:id="@+id/lst_order"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_priceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textColorLink="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txt_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_priceid"
+        android:layout_alignBottom="@+id/txt_priceid"
+        android:layout_marginEnd="46dp"
+        android:layout_toStartOf="@+id/txt_priceid"
+        android:text="Total Price"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_orderid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_priceid"
+        android:layout_marginTop="33dp"
+        android:text="Order"
+        android:background="#719C0E"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
